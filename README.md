@@ -192,9 +192,11 @@ In Scan Multibranch Pipeline Triggers, choose Scan by webhook and setup Trigger 
 ![](https://miro.medium.com/max/700/1*qxMINvbxqcz79CxdNINA2w.png)
 
 Save your configuration and then Click Open Blue Ocean, it would auto-discover your Github branch and the pipeline you defined in Jenkinsfile
+
 ![](https://miro.medium.com/max/700/1*JeIU9cULcnuyTiS00WitBA.png)
 
 After making a commit to a specific branch, you should see the pipeline initiation of that branch, followed by the final deployment.
+
 ![](https://miro.medium.com/max/700/1*_oJfXU_shPtCvzrgJTr5xQ.png)
 
 The Jenkins job is now ready for use. Replicate the same flow across all microservices.
@@ -202,9 +204,11 @@ The Jenkins job is now ready for use. Replicate the same flow across all microse
 # Jenkins Access control and Management
 
 Install Jenkins role-based access control plugin to enable Manage and Assign Role option under Manage Jenkins
+
 ![](https://miro.medium.com/max/548/1*nwFKlxxxjiALj_tpUt91tA.png)
 
 Add new roles under Manage Roles
+
 ![](https://miro.medium.com/max/700/1*xzWWyEhV8fwE1cDnDBV0Ug.png)
 
 And assign roles to users 
