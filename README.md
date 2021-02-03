@@ -4,7 +4,9 @@
 
 ### Introduction
 - The objective behind this guide is to help set up a simple and efficient CI/CD pipeline using Jenkins for hundreds of microservices running in Kubernetes on AWS EKS.
-- The approach will be developer-friendly and straightforward, easy to maintain, and one that has proved to be effective on some large scale production deployments. Step by step guide for the entire setup is listed below
+- The approach will be developer-friendly and straightforward, easy to maintain, and one that has proved to be effective on some large scale production deployments. 
+
+Step by step guide for the entire setup is listed below
 
 ## Jenkins Installation
 - To start with, we need Jenkins running on an EC2 instance. [ Running Jenkins inside the Kubernetes cluster has its own set of challenges to solve for docker builds ].
